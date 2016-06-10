@@ -1,0 +1,111 @@
+Selected Variables
+temp atemp hr hum yr season
+
+Lasso Regression
+kFold Scores: [mean: -109.74474, std: 27.71718, params: {'alpha': 0.5}, mean: -109.56065, std: 28.00014, params: {'alpha': 0.75}, mean: -109.38253, std: 28.25520, params: {'alpha': 1.0}]
+Best Score: -109.382531732
+Variable coefficients: 
+temp   260.073637361
+weathersit   0.0
+weekday   172.231151891
+windspeed   -181.27859757
+atemp   78.7389256333
+hr   54.3261081783
+Global Model Score: -106.10951025
+Evaluation Score: -105.424540315
+
+
+Random Forest
+kFold Scores: [mean: -94.86662, std: 8.51794, params: {'min_samples_split': 2, 'n_estimators': 10, 'max_depth': 4}, mean: -94.26093, std: 9.20775, params: {'min_samples_split': 2, 'n_estimators': 50, 'max_depth': 4}, mean: -94.59814, std: 9.06876, params: {'min_samples_split': 2, 'n_estimators': 100, 'max_depth': 4}, mean: -94.86662, std: 8.51794, params: {'min_samples_split': 6, 'n_estimators': 10, 'max_depth': 4}, mean: -94.26093, std: 9.20775, params: {'min_samples_split': 6, 'n_estimators': 50, 'max_depth': 4}, mean: -94.59814, std: 9.06876, params: {'min_samples_split': 6, 'n_estimators': 100, 'max_depth': 4}, mean: -94.86662, std: 8.51794, params: {'min_samples_split': 10, 'n_estimators': 10, 'max_depth': 4}, mean: -94.26093, std: 9.20775, params: {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 4}, mean: -94.59814, std: 9.06876, params: {'min_samples_split': 10, 'n_estimators': 100, 'max_depth': 4}, mean: -94.86662, std: 8.51794, params: {'min_samples_split': 14, 'n_estimators': 10, 'max_depth': 4}, mean: -94.26093, std: 9.20775, params: {'min_samples_split': 14, 'n_estimators': 50, 'max_depth': 4}, mean: -94.59814, std: 9.06876, params: {'min_samples_split': 14, 'n_estimators': 100, 'max_depth': 4}, mean: -67.87518, std: 15.74881, params: {'min_samples_split': 2, 'n_estimators': 10, 'max_depth': 8}, mean: -67.58597, std: 14.95010, params: {'min_samples_split': 2, 'n_estimators': 50, 'max_depth': 8}, mean: -67.49875, std: 14.79551, params: {'min_samples_split': 2, 'n_estimators': 100, 'max_depth': 8}, mean: -67.90220, std: 15.77652, params: {'min_samples_split': 6, 'n_estimators': 10, 'max_depth': 8}, mean: -67.50392, std: 15.02386, params: {'min_samples_split': 6, 'n_estimators': 50, 'max_depth': 8}, mean: -67.44127, std: 14.83755, params: {'min_samples_split': 6, 'n_estimators': 100, 'max_depth': 8}, mean: -67.80821, std: 15.77234, params: {'min_samples_split': 10, 'n_estimators': 10, 'max_depth': 8}, mean: -67.46026, std: 14.99914, params: {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 8}, mean: -67.39343, std: 14.84076, params: {'min_samples_split': 10, 'n_estimators': 100, 'max_depth': 8}, mean: -67.80467, std: 15.78010, params: {'min_samples_split': 14, 'n_estimators': 10, 'max_depth': 8}, mean: -67.49556, std: 15.09132, params: {'min_samples_split': 14, 'n_estimators': 50, 'max_depth': 8}, mean: -67.39023, std: 14.91770, params: {'min_samples_split': 14, 'n_estimators': 100, 'max_depth': 8}, mean: -68.27724, std: 14.77024, params: {'min_samples_split': 2, 'n_estimators': 10, 'max_depth': 12}, mean: -67.57069, std: 14.94271, params: {'min_samples_split': 2, 'n_estimators': 50, 'max_depth': 12}, mean: -67.43632, std: 14.95403, params: {'min_samples_split': 2, 'n_estimators': 100, 'max_depth': 12}, mean: -68.17740, std: 14.84682, params: {'min_samples_split': 6, 'n_estimators': 10, 'max_depth': 12}, mean: -67.48701, std: 15.00806, params: {'min_samples_split': 6, 'n_estimators': 50, 'max_depth': 12}, mean: -67.30330, std: 14.99143, params: {'min_samples_split': 6, 'n_estimators': 100, 'max_depth': 12}, mean: -67.97440, std: 15.08454, params: {'min_samples_split': 10, 'n_estimators': 10, 'max_depth': 12}, mean: -67.28753, std: 15.12016, params: {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 12}, mean: -67.03223, std: 15.01893, params: {'min_samples_split': 10, 'n_estimators': 100, 'max_depth': 12}, mean: -67.64355, std: 15.11617, params: {'min_samples_split': 14, 'n_estimators': 10, 'max_depth': 12}, mean: -67.06655, std: 15.14117, params: {'min_samples_split': 14, 'n_estimators': 50, 'max_depth': 12}, mean: -66.86946, std: 15.04906, params: {'min_samples_split': 14, 'n_estimators': 100, 'max_depth': 12}]
+Best Score: -66.8694613275
+temp   0.152360490073
+weathersit   0.0316009336103
+weekday   0.627677098644
+windspeed   0.0562427719315
+atemp   0.096997555455
+hr   0.0351211502864
+Global Model Score: -49.8974819478
+Evaluation Score: -58.928857915
+
+
+--------------------------------------------------------------
+Selected Variables
+temp weathersit windspeed atemp hr hum yr mnth season
+
+Lasso Regression
+kFold Scores: [mean: -110.09719, std: 27.87557, params: {'alpha': 0.5}, mean: -109.76731, std: 28.17580, params: {'alpha': 0.75}, mean: -109.50878, std: 28.37345, params: {'alpha': 1.0}]
+Best Score: -109.508780089
+Variable coefficients: 
+temp   260.078681471
+weathersit   -0.0
+weekday   0.0
+windspeed   0.0
+atemp   172.227957141
+hr   -181.279483263
+hum   78.7387913092
+workingday   0.0
+yr   54.3253282414
+Global Model Score: -106.1095344
+Evaluation Score: -105.424600956
+
+
+Random Forest
+kFold Scores: [mean: -94.97750, std: 8.25020, params: {'min_samples_split': 2, 'n_estimators': 10, 'max_depth': 4}, mean: -94.47633, std: 8.85649, params: {'min_samples_split': 2, 'n_estimators': 50, 'max_depth': 4}, mean: -94.74455, std: 8.72617, params: {'min_samples_split': 2, 'n_estimators': 100, 'max_depth': 4}, mean: -94.97750, std: 8.25020, params: {'min_samples_split': 6, 'n_estimators': 10, 'max_depth': 4}, mean: -94.47633, std: 8.85649, params: {'min_samples_split': 6, 'n_estimators': 50, 'max_depth': 4}, mean: -94.74455, std: 8.72617, params: {'min_samples_split': 6, 'n_estimators': 100, 'max_depth': 4}, mean: -94.97750, std: 8.25020, params: {'min_samples_split': 10, 'n_estimators': 10, 'max_depth': 4}, mean: -94.47633, std: 8.85649, params: {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 4}, mean: -94.74455, std: 8.72617, params: {'min_samples_split': 10, 'n_estimators': 100, 'max_depth': 4}, mean: -94.97750, std: 8.25020, params: {'min_samples_split': 14, 'n_estimators': 10, 'max_depth': 4}, mean: -94.47633, std: 8.85649, params: {'min_samples_split': 14, 'n_estimators': 50, 'max_depth': 4}, mean: -94.74455, std: 8.72617, params: {'min_samples_split': 14, 'n_estimators': 100, 'max_depth': 4}, mean: -67.84437, std: 13.54567, params: {'min_samples_split': 2, 'n_estimators': 10, 'max_depth': 8}, mean: -67.63028, std: 12.70856, params: {'min_samples_split': 2, 'n_estimators': 50, 'max_depth': 8}, mean: -67.68116, std: 12.57212, params: {'min_samples_split': 2, 'n_estimators': 100, 'max_depth': 8}, mean: -67.92923, std: 13.46660, params: {'min_samples_split': 6, 'n_estimators': 10, 'max_depth': 8}, mean: -67.66302, std: 12.72373, params: {'min_samples_split': 6, 'n_estimators': 50, 'max_depth': 8}, mean: -67.63879, std: 12.60897, params: {'min_samples_split': 6, 'n_estimators': 100, 'max_depth': 8}, mean: -67.88595, std: 13.54920, params: {'min_samples_split': 10, 'n_estimators': 10, 'max_depth': 8}, mean: -67.62500, std: 12.77474, params: {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 8}, mean: -67.62483, std: 12.62344, params: {'min_samples_split': 10, 'n_estimators': 100, 'max_depth': 8}, mean: -67.79581, std: 13.62800, params: {'min_samples_split': 14, 'n_estimators': 10, 'max_depth': 8}, mean: -67.63701, std: 12.82830, params: {'min_samples_split': 14, 'n_estimators': 50, 'max_depth': 8}, mean: -67.63981, std: 12.65900, params: {'min_samples_split': 14, 'n_estimators': 100, 'max_depth': 8}, mean: -68.09121, std: 12.20898, params: {'min_samples_split': 2, 'n_estimators': 10, 'max_depth': 12}, mean: -67.20285, std: 11.53258, params: {'min_samples_split': 2, 'n_estimators': 50, 'max_depth': 12}, mean: -66.84765, std: 11.57777, params: {'min_samples_split': 2, 'n_estimators': 100, 'max_depth': 12}, mean: -68.15568, std: 12.12678, params: {'min_samples_split': 6, 'n_estimators': 10, 'max_depth': 12}, mean: -67.06776, std: 11.60599, params: {'min_samples_split': 6, 'n_estimators': 50, 'max_depth': 12}, mean: -66.76345, std: 11.60915, params: {'min_samples_split': 6, 'n_estimators': 100, 'max_depth': 12}, mean: -67.65357, std: 12.37365, params: {'min_samples_split': 10, 'n_estimators': 10, 'max_depth': 12}, mean: -67.03531, std: 11.76699, params: {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 12}, mean: -66.70797, std: 11.77044, params: {'min_samples_split': 10, 'n_estimators': 100, 'max_depth': 12}, mean: -67.62670, std: 12.66797, params: {'min_samples_split': 14, 'n_estimators': 10, 'max_depth': 12}, mean: -67.07374, std: 11.94992, params: {'min_samples_split': 14, 'n_estimators': 50, 'max_depth': 12}, mean: -66.76952, std: 11.93278, params: {'min_samples_split': 14, 'n_estimators': 100, 'max_depth': 12}]
+Best Score: -66.7079656892
+temp   0.143541345642
+weathersit   0.0207071367618
+weekday   0.017568886343
+windspeed   0.0258919898933
+atemp   0.611686457673
+hr   0.0414918181233
+hum   0.094693529886
+workingday   0.0195975850815
+yr   0.0248212505961
+Global Model Score: -46.0614451343
+Evaluation Score: -56.8422206962
+
+
+--------------------------------------------------------------
+Selected Variables
+temp weathersit windspeed atemp hr hum workingday yr holiday mnth weekday season
+
+Lasso Regression
+kFold Scores: [mean: -110.23130, std: 27.80723, params: {'alpha': 0.5}, mean: -109.88634, std: 28.13294, params: {'alpha': 0.75}, mean: -109.62241, std: 28.34131, params: {'alpha': 1.0}]
+Best Score: -109.622408883
+Variable coefficients: 
+temp   259.789703081
+weathersit   -0.0
+weekday   0.0
+windspeed   0.0
+atemp   172.264104279
+hr   -181.202502837
+hum   2.19865499849
+workingday   78.763028017
+yr   -0.0
+holiday   0.0
+mnth   2.56847863436
+weekday   54.3328898636
+Global Model Score: -106.14065531
+Evaluation Score: -105.479707974
+
+
+Random Forest
+kFold Scores: [mean: -93.79974, std: 7.80196, params: {'min_samples_split': 2, 'n_estimators': 10, 'max_depth': 4}, mean: -93.46555, std: 8.23434, params: {'min_samples_split': 2, 'n_estimators': 50, 'max_depth': 4}, mean: -93.73426, std: 8.10622, params: {'min_samples_split': 2, 'n_estimators': 100, 'max_depth': 4}, mean: -93.79974, std: 7.80196, params: {'min_samples_split': 6, 'n_estimators': 10, 'max_depth': 4}, mean: -93.46555, std: 8.23434, params: {'min_samples_split': 6, 'n_estimators': 50, 'max_depth': 4}, mean: -93.73426, std: 8.10622, params: {'min_samples_split': 6, 'n_estimators': 100, 'max_depth': 4}, mean: -93.79974, std: 7.80196, params: {'min_samples_split': 10, 'n_estimators': 10, 'max_depth': 4}, mean: -93.46555, std: 8.23434, params: {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 4}, mean: -93.73426, std: 8.10622, params: {'min_samples_split': 10, 'n_estimators': 100, 'max_depth': 4}, mean: -93.79974, std: 7.80196, params: {'min_samples_split': 14, 'n_estimators': 10, 'max_depth': 4}, mean: -93.46555, std: 8.23434, params: {'min_samples_split': 14, 'n_estimators': 50, 'max_depth': 4}, mean: -93.73426, std: 8.10622, params: {'min_samples_split': 14, 'n_estimators': 100, 'max_depth': 4}, mean: -50.35845, std: 7.34910, params: {'min_samples_split': 2, 'n_estimators': 10, 'max_depth': 8}, mean: -50.08733, std: 7.36291, params: {'min_samples_split': 2, 'n_estimators': 50, 'max_depth': 8}, mean: -50.23548, std: 7.43886, params: {'min_samples_split': 2, 'n_estimators': 100, 'max_depth': 8}, mean: -50.39670, std: 7.49768, params: {'min_samples_split': 6, 'n_estimators': 10, 'max_depth': 8}, mean: -50.10426, std: 7.35729, params: {'min_samples_split': 6, 'n_estimators': 50, 'max_depth': 8}, mean: -50.20917, std: 7.43016, params: {'min_samples_split': 6, 'n_estimators': 100, 'max_depth': 8}, mean: -50.37838, std: 7.36870, params: {'min_samples_split': 10, 'n_estimators': 10, 'max_depth': 8}, mean: -50.09127, std: 7.36627, params: {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 8}, mean: -50.17320, std: 7.41990, params: {'min_samples_split': 10, 'n_estimators': 100, 'max_depth': 8}, mean: -50.52935, std: 7.26855, params: {'min_samples_split': 14, 'n_estimators': 10, 'max_depth': 8}, mean: -50.20895, std: 7.31298, params: {'min_samples_split': 14, 'n_estimators': 50, 'max_depth': 8}, mean: -50.28590, std: 7.37156, params: {'min_samples_split': 14, 'n_estimators': 100, 'max_depth': 8}, mean: -44.89740, std: 5.59401, params: {'min_samples_split': 2, 'n_estimators': 10, 'max_depth': 12}, mean: -44.02833, std: 5.53119, params: {'min_samples_split': 2, 'n_estimators': 50, 'max_depth': 12}, mean: -43.70164, std: 5.45797, params: {'min_samples_split': 2, 'n_estimators': 100, 'max_depth': 12}, mean: -44.89251, std: 5.81679, params: {'min_samples_split': 6, 'n_estimators': 10, 'max_depth': 12}, mean: -44.02681, std: 5.65121, params: {'min_samples_split': 6, 'n_estimators': 50, 'max_depth': 12}, mean: -43.68196, std: 5.54048, params: {'min_samples_split': 6, 'n_estimators': 100, 'max_depth': 12}, mean: -45.24683, std: 5.84502, params: {'min_samples_split': 10, 'n_estimators': 10, 'max_depth': 12}, mean: -44.31371, std: 5.69758, params: {'min_samples_split': 10, 'n_estimators': 50, 'max_depth': 12}, mean: -44.00411, std: 5.61705, params: {'min_samples_split': 10, 'n_estimators': 100, 'max_depth': 12}, mean: -45.41269, std: 5.59351, params: {'min_samples_split': 14, 'n_estimators': 10, 'max_depth': 12}, mean: -44.72011, std: 5.52617, params: {'min_samples_split': 14, 'n_estimators': 50, 'max_depth': 12}, mean: -44.49676, std: 5.51091, params: {'min_samples_split': 14, 'n_estimators': 100, 'max_depth': 12}]
+Best Score: -43.6819566871
+temp   0.121314890748
+weathersit   0.0175962431555
+weekday   0.00476854155763
+windspeed   0.017164837904
+atemp   0.632886455264
+hr   0.0200420087958
+hum   0.0565692149886
+workingday   0.0841366188958
+yr   0.00227811511409
+holiday   0.012959501186
+mnth   0.00945685385535
+weekday   0.0208267185352
+Global Model Score: -20.5714542642
+Evaluation Score: -28.9832763541
+
+
+--------------------------------------------------------------

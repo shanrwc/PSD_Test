@@ -1,0 +1,3 @@
+latex slides.tex
+dvips -o slides.ps slides.dvi
+ps2pdf slides.ps slides.pdf
